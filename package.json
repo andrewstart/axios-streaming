@@ -1,0 +1,13 @@
+{
+  "name": "axios-streaming",
+  "version": "1.0.0",
+  "description": "Example showing streaming requests with axios",
+  "main": "index.js",
+  "scripts": {},
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "http-server": "^0.11.1",
+    "request": "^2.83.0"
+  }
+}
