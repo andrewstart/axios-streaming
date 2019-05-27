@@ -7,4 +7,4 @@ An example of how to stream a file through Axios, with the same action done in R
 `node axios.js` or `node request.js`
 
 ### About source.mp4
-The source video is a downscaled, low framerate, low audio quality export of [Big Buck Bunny](https://peach.blender.org/), just an an example file.
+The source video is a downscaled, low framerate, low audio quality export of [Big Buck Bunny](https://peach.blender.org/), just an example file.
