@@ -13,7 +13,7 @@ axios.get(INPUT, {responseType: 'stream', adapter: httpAdapter})
 .then((response) => {
     const stream = response.data;
     stream.on('data', (chunk /* chunk is an ArrayBuffer */) => {
-        output.write(new Buffer(chunk));
+        output.write(new Buffer.from(chunk));
     });
     stream.on('end', () => {
         output.end();
